@@ -93,7 +93,7 @@ export default function Login() {
           {loading ? "Signing in..." : "Login"}
         </button>
 
-     
+     <p className="text-center font-medium mt-2"> Please Give Server 60s to spin up.</p>
       </div>
     </div>
   );

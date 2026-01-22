@@ -106,6 +106,8 @@ export default function Signup() {
           {loading ? "Creating account..." : "Sign Up"}
         </button>
 
+
+
         {/* Footer */}
         <p className="text-sm text-center mt-5 text-gray-600">
           Already have an account?{" "}
@@ -116,6 +118,8 @@ export default function Signup() {
             Login
           </span>
         </p>
+
+           <p className="text-center font-medium mt-2"> Please Give Server 60s to spin up.</p>
       </div>
     </div>
   );
