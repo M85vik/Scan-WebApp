@@ -1,5 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
-
+import { BASE_URL } from "./client";
 export const getHistory = async () => {
   const token = localStorage.getItem("token");
 

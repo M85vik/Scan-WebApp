@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+import { BASE_URL } from "./client";
 
 export const scanImages = async (files) => {
   const token = localStorage.getItem("token");
